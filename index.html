@@ -90,7 +90,7 @@
 
     <main class="container">
         <!-- Course section start -->
-        <div class="resource-section my-5">
+        <section class="resource-section my-5">
             <h2 class="text-capitalize text-center">Explore our popular courses</h2>
             <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             <div class="course-section my-3">
@@ -165,10 +165,11 @@
                     <button class="btn btn-info">View All Courses</button>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- course section end -->
 
-        <div class="elearning-section">
+        <!-- Elearning Section Start -->
+        <section class="elearning-section bg-light">
             <div class="row">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                     <div class="elearning-left">
@@ -177,13 +178,13 @@
                     
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 col-12 d-flex align-items-center">
-                    <div class="elearning-right">
+                    <div class="elearning-right p-4">
                         <h2>Explore The elearning Institute</h2>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
 
                         <p> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
 
-                        <div class="stat d-flex flex-md-row flex-sm-row flex-column justify-space-around">
+                        <div class="stat d-flex flex-md-row flex-sm-row flex-column justify-content-between">
                             <div class="numbers">
                                 <h3>3.2K+</h3>
                                 <p>Online Course</p>
@@ -201,7 +202,57 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Elearning Section End -->
+
+        <!-- Subscribe Section Start -->
+        <section class="my-5 subsribe-section bg-info rounded d-flex flex-lg-row flex-md-column flex-sm-column flex-column justify-content-between p-5">
+            <div class="subscribe-text text-white">
+            <h2>Ready to join?</h2>
+            <p class="w-75">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="d-flex align-items-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Register Now
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                              </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subscribe Section End -->
 
 
     </main>
