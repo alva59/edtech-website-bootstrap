@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* Carousel */
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-40%);
+    position: absolute;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.7;
+}
