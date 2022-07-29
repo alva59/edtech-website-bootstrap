@@ -6,10 +6,10 @@
     transform: translateY(-40%);
     position: absolute;
 }
-.carousel-item{
+.carousel-item.text-position{
     position: relative;
 }
-.carousel-item::before{
+.carousel-item.text-position::before{
     content: "";
     display: block;
     position: absolute;
